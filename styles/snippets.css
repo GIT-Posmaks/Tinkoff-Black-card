@@ -1,0 +1,14 @@
+.link {
+    outline: none;
+    font: normal 1rem "Tahoma", sans-serif;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to left, #e9204f, #d51e49c2, #e9204f);
+    background-size: 200%;
+    transition: .5s;
+}
+
+.link:is(.link_hover:hover, .link_focus:focus, .link_active:active) {
+    background-position: right;
+}
